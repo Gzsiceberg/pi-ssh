@@ -1,0 +1,32 @@
+{
+  "name": "pi-ssh",
+  "private": true,
+  "version": "0.1.5",
+  "description": "Explicit SSH tools for pi. Toggle /ssh on for a host, then use ssh_read, ssh_write, ssh_edit, and ssh_bash without replacing local tools.",
+  "type": "module",
+  "keywords": [
+    "pi-package",
+    "pi-extension",
+    "ssh",
+    "remote",
+    "tailscale",
+    "macos",
+    "vps",
+    "coding-agent"
+  ],
+  "author": "Can Celik",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "pi": {
+    "extensions": [
+      "./index.ts"
+    ]
+  },
+  "files": [
+    "index.ts",
+    "README.md",
+    "LICENSE"
+  ]
+}
