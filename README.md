@@ -1,6 +1,6 @@
 # pi-ssh
 
-Explicit SSH tools for [pi](https://github.com/earendil-works/pi-mono/tree/main/packages/coding-agent).
+Explicit SSH tools for [pi](https://github.com/earendil-works/pi/tree/main/packages/coding-agent).
 
 Turn SSH mode on only when you need it, keep local tools untouched, and give the agent a separate remote toolset:
 
